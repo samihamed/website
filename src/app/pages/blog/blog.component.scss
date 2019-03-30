@@ -1,0 +1,14 @@
+@import '../../styles/variables';
+
+h3 {
+  color: $secondary-color !important;
+  font-size: 2em;
+  text-align: justify;
+}
+
+.article {
+  width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 1.5;
+}

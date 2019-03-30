@@ -4,9 +4,9 @@
 
 body {
   font-family: 'Roboto', monospace;
-  margin: 0;
-  padding: 24px;
-  border: 1vh solid $dark-color;
+  margin: 0 auto;
+  padding: 5%;
+  max-width: 1000px;
   background-color: $foundation-color;
   height: 100%;
   min-height: 98vh;
@@ -14,9 +14,19 @@ body {
 
 h1, h2, h3 {
   font-family: 'Nanum Gothic', Helvetica;
+  color: $accent-color;
 }
 
 a {
-  color: $accent-color;
   text-decoration: none;
+  color: $primary-color;
+
+  h2 {
+    color: $secondary-color;
+    text-decoration: none;
+  }
+}
+
+a:hover {
+  text-decoration: underline;
 }
