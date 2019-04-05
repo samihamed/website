@@ -19,6 +19,12 @@
     img {
       object-fit: contain;
       height: 100%;
+
+      &:hover {
+        filter: opacity(90%);
+        -webkit-transition: filter .7s;
+        transition: filter .7s;
+      }
     }
   }
 
