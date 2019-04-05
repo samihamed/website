@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +20,10 @@ import { Component } from '@angular/core';
     h2 { margin: 0 }
   `],
 })
-export class AppComponent {
-  title = 'website';
+export class AppComponent implements OnInit {
+  constructor(private router: Router) {}
+
+  ngOnInit(): void {
+    if (this.router.url === '/') { this.router.navigate(['blog']) }
+  }
 }

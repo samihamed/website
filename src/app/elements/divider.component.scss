@@ -1,4 +1,5 @@
 @import '../../styles';
+@import '../styles/variables';
 
 .divider {
   display: flex;
@@ -27,6 +28,10 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
+
+    .active {
+      color: $secondary-color-light !important;
+    }
   }
 }
 

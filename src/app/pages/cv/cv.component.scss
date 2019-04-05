@@ -26,30 +26,6 @@
 
     p { text-align: justify; }
 
-    .contact {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around;
-
-      .contact-option {
-        margin: 1em;
-
-        img {
-          height: 45px;
-          position: relative;
-        }
-
-        img:hover {
-          filter: opacity(70%);
-          top: 1px;
-
-          -webkit-transition: filter .3s;
-          transition: filter .3s;
-        }
-      }
-    }
-
     .tech-stack {
       display: flex;
       flex-direction: column;

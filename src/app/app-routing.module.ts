@@ -15,11 +15,15 @@ const routes: Routes = [
         path: 'blog',
         loadChildren: './pages/blog/blog.module#BlogModule',
       },
+      {
+        path: 'connect',
+        loadChildren: './pages/connect/connect.module#ConnectModule',
+      },
     ],
   },
   {
     path: '**',
-    redirectTo: '/blog',
+    redirectTo: '',
   },
 ];
 

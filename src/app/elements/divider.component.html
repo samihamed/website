@@ -3,18 +3,18 @@
     <img src="../../assets/portrait.JPG">
   </div>
     <div class="flex-row">
-      <a routerLink="/blog">
-        <h2>
+      <a routerLink="/blog" routerLinkActive="active">
+        <h2 (click)="onClickGreeting()">
           BLOG
         </h2>
       </a>
-      <a routerLink="/cv">
-        <h2>
+      <a routerLink="/cv" routerLinkActive="active">
+        <h2 (click)="onClickGreeting()">
           CV
         </h2>
       </a>
-      <a routerLink="/connect">
-        <h2>
+      <a routerLink="/connect" routerLinkActive="active">
+        <h2 (click)="onClickGreeting()">
           LINKS
         </h2>
       </a>

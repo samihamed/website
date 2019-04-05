@@ -8,6 +8,13 @@
   h3 {
     color: $secondary-color !important;
     font-size: 2em;
+    text-decoration: underline;
+
+    &:hover {
+      color: $secondary-color-light !important;
+      -webkit-transition: color .7s;
+      transition: color .7s;
+    }
   }
 }
 

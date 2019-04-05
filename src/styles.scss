@@ -23,19 +23,19 @@ a {
     text-decoration: none;
 
     :hover {
-      color: white !important;
+      color: $secondary-color-light !important;
       text-decoration: none;
 
-      -webkit-transition: color .7s;
-      transition: color .7s;
+      -webkit-transition: color .5s;
+      transition: color .5s;
     }
   }
 
   :hover {
-    color: white !important;
+    color: $secondary-color-light !important;
     text-decoration: none;
 
-    -webkit-transition: color .7s;
-    transition: color .7s;
+    -webkit-transition: color .5s;
+    transition: color .5s;
   }
 }

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GreetingService } from '../greeting.service';
 
 @Component({
   selector: 'app-divider',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./divider.component.scss']
 })
 export class DividerComponent {
-  title = 'website';
+  constructor(public greetingService: GreetingService) {}
+  onClickGreeting(): void { this.greetingService.updateGreeting(); }
 }
