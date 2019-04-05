@@ -9,9 +9,9 @@
 
   .portrait-container {
     height: 8em;
-    width: 8em;
+    min-width: 8em;
     border-radius: 50%;
-    border: .5em solid white;
+    border: .25em solid white;
     overflow: hidden;
     margin-left: 8em;
 
@@ -26,9 +26,17 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+  }
+}
 
-    a, h2 {
-      margin: 0 2em;
+@media only screen and (max-width: 768px) {
+  .divider {
+    height: 100%;
+    flex-direction: column;
+
+    .portrait-container {
+      margin: 1em;
     }
   }
 }
