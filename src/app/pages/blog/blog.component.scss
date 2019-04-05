@@ -4,11 +4,27 @@ h3 {
   color: $secondary-color !important;
   font-size: 2em;
   text-align: justify;
+  width: 80%;
+  margin: 1em auto;
 }
 
 .article {
   width: 80%;
   text-align: justify;
-  margin: 0 auto;
+  margin: 0 auto 2em auto;
   line-height: 1.5;
+  background-color: white;
+  padding: 1.5em;
+  border-radius: 2px;
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  img {
+    width: 108%;
+    border-radius: 4px;
+    position: relative;
+    left: -4%;
+  }
 }

@@ -3,17 +3,14 @@
 @import './app/styles/variables';
 
 body {
-  font-family: 'Roboto', monospace;
-  margin: 0 auto;
-  padding: 5%;
-  max-width: 1000px;
+  font-family: 'Raleway', monospace;
   background-color: $foundation-color;
   height: 100%;
   min-height: 98vh;
 }
 
 h1, h2, h3 {
-  font-family: 'Nanum Gothic', Helvetica;
+  font-family: 'Roboto Condensed', Helvetica;
   color: $accent-color;
 }
 
