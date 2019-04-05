@@ -21,9 +21,21 @@ a {
   h2 {
     color: $secondary-color;
     text-decoration: none;
-  }
-}
 
-a:hover {
-  text-decoration: underline;
+    :hover {
+      color: white !important;
+      text-decoration: none;
+
+      -webkit-transition: color .7s;
+      transition: color .7s;
+    }
+  }
+
+  :hover {
+    color: white !important;
+    text-decoration: none;
+
+    -webkit-transition: color .7s;
+    transition: color .7s;
+  }
 }
