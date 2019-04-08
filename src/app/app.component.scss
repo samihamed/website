@@ -1,0 +1,27 @@
+@import './styles/variables';
+
+.centered-container {
+  text-align: center;
+}
+
+a > h2 { margin: 0; }
+
+h2 { margin: 0 }
+
+button {
+  display: none;
+  width: 7em;
+  height: 4em;
+  border: 0;
+  border-radius: 1em;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  box-shadow: 1.5px 2px 4px 0.1px #868686;
+  background-color: $accent-color-dark;
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+}
