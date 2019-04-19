@@ -11,6 +11,8 @@
   .portrait-container {
     height: 8em;
     min-width: 8em;
+    max-width: 8em;
+
     border-radius: 50%;
     border: .25em solid white;
     overflow: hidden;
@@ -19,6 +21,7 @@
     img {
       object-fit: contain;
       height: 100%;
+      width: 100%;
 
       &:hover {
         filter: opacity(90%);
